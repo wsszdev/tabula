@@ -1,0 +1,18 @@
+node_modules/
+dist/
+
+# Local data: sources, caches and the build database (rebuilt with `npm run data`).
+# The static export in packages/web/public/data IS committed: the site is built from it.
+data/raw/
+data/cache/
+data/imagery/
+data/*.db
+data/*.db-*
+
+# Test output
+test-results/
+playwright-report/
+
+.DS_Store
+*.log
+.env*

@@ -1,0 +1,37 @@
+{
+  "name": "tabula",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "SEE LICENSE IN NOTICE.md",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "data": "tsx packages/pipeline/src/cli.ts all",
+    "data:geo": "tsx packages/pipeline/src/cli.ts geo",
+    "data:enrich": "tsx packages/pipeline/src/cli.ts enrich",
+    "data:glyphs": "tsx packages/pipeline/src/glyphs.ts",
+    "export": "tsx packages/server/src/export.ts",
+    "dev": "npm run dev -w @tabula/web",
+    "build": "npm run build -w @tabula/web",
+    "preview": "npm run preview -w @tabula/web",
+    "api": "tsx watch packages/server/src/main.ts",
+    "start": "NODE_ENV=production tsx packages/server/src/main.ts",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "@types/geojson": "^7946.0.16",
+    "@types/node": "^24.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "vitest": "^3.0.0"
+  },
+  "description": "A 3D atlas of the world's political history"
+}

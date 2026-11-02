@@ -1,0 +1,14 @@
+const base = { width: 20, height: 20, viewBox: '0 0 24 24', fill: 'none', stroke: 'currentColor', strokeWidth: 1.5, strokeLinecap: 'round', strokeLinejoin: 'round', 'aria-hidden': true } as const;
+export const IconSearch = () => <svg {...base}><circle cx="11" cy="11" r="6.5" /><path d="m20 20-4.2-4.2" /></svg>;
+export const IconLayers = () => <svg {...base}><path d="m12 4 8.5 4.6L12 13.2 3.5 8.6 12 4Z" /><path d="m3.5 12.4 8.5 4.6 8.5-4.6M3.5 16.2 12 20.8l8.5-4.6" /></svg>;
+export const IconMoments = () => <svg {...base}><path d="M5 3v18M5 5h12l-2.6 3.5L17 12H5" /></svg>;
+export const IconSettings = () => <svg {...base}><path d="M4 7h9M17 7h3M4 17h3M11 17h9" /><circle cx="15" cy="7" r="2" /><circle cx="9" cy="17" r="2" /></svg>;
+export const IconAbout = () => <svg {...base}><circle cx="12" cy="12" r="8.5" /><path d="M12 11v5M12 8h.01" /></svg>;
+export const IconClose = () => <svg {...base}><path d="m6 6 12 12M18 6 6 18" /></svg>;
+export const IconPlay = () => <svg {...base} fill="currentColor" stroke="none"><path d="M8 5.2v13.6a.6.6 0 0 0 .9.5l11-6.8a.6.6 0 0 0 0-1l-11-6.8a.6.6 0 0 0-.9.5Z" /></svg>;
+export const IconPause = () => <svg {...base} fill="currentColor" stroke="none"><rect x="7" y="5" width="3.6" height="14" rx="1" /><rect x="13.4" y="5" width="3.6" height="14" rx="1" /></svg>;
+export const IconPrev = () => <svg {...base}><path d="m14.5 6-6 6 6 6" /></svg>;
+export const IconNext = () => <svg {...base}><path d="m9.5 6 6 6-6 6" /></svg>;
+export const IconPlus = () => <svg {...base}><path d="M12 5v14M5 12h14" /></svg>;
+export const IconMinus = () => <svg {...base}><path d="M5 12h14" /></svg>;
+export const IconNorth = () => <svg {...base}><path d="m12 3 4 9h-8l4-9Z" fill="currentColor" stroke="none" /><path d="m8 12 4 9 4-9" /></svg>;

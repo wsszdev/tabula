@@ -1,0 +1,785 @@
+{
+"_doc": "Period-to-article mappings for states whose Wikidata identity changes while the map name does not. Each row names an English Wikipedia article, resolved to a QID at build time; dates here only bound where the identity applies. Unresolved titles fail validation.",
+"rows": [
+[
+"cs:255",
+1886,
+1918.86,
+"German Empire"
+],
+[
+"cs:255",
+1918.86,
+1933.08,
+"Weimar Republic"
+],
+[
+"cs:255",
+1933.08,
+1945.4,
+"Nazi Germany"
+],
+[
+"cs:260",
+1949.3,
+1990.75,
+"West Germany"
+],
+[
+"cs:260",
+1990.75,
+2020,
+"Germany"
+],
+[
+"cs:265",
+1949.7,
+1990.75,
+"East Germany"
+],
+[
+"cs:365",
+1886,
+1917.2,
+"Russian Empire"
+],
+[
+"cs:365",
+1917.2,
+1917.85,
+"Russian Provisional Government"
+],
+[
+"cs:365",
+1917.85,
+1922.99,
+"Russian Soviet Federative Socialist Republic"
+],
+[
+"cs:365",
+1922.99,
+1991.98,
+"Soviet Union"
+],
+[
+"cs:365",
+1991.98,
+2020,
+"Russia"
+],
+[
+"cs:220",
+1886,
+1940.53,
+"French Third Republic"
+],
+[
+"cs:220",
+1940.53,
+1944.65,
+"Vichy France"
+],
+[
+"cs:220",
+1944.65,
+1946.8,
+"Provisional Government of the French Republic"
+],
+[
+"cs:220",
+1946.8,
+1958.75,
+"French Fourth Republic"
+],
+[
+"cs:220",
+1958.75,
+2020,
+"France"
+],
+[
+"cs:300",
+1886,
+1918.86,
+"Austria-Hungary"
+],
+[
+"cs:640",
+1886,
+1923.8,
+"Ottoman Empire"
+],
+[
+"cs:640",
+1923.8,
+2020,
+"Turkey"
+],
+[
+"cs:325",
+1886,
+1946.45,
+"Kingdom of Italy"
+],
+[
+"cs:325",
+1946.45,
+2020,
+"Italy"
+],
+[
+"cs:710",
+1886,
+1912.12,
+"Qing dynasty"
+],
+[
+"cs:710",
+1912.12,
+1949.75,
+"Republic of China (1912–1949)"
+],
+[
+"cs:710",
+1949.75,
+2020,
+"China"
+],
+[
+"cs:740",
+1886,
+1947.34,
+"Empire of Japan"
+],
+[
+"cs:740",
+1947.34,
+2020,
+"Japan"
+],
+[
+"cs:230",
+1886,
+1931.3,
+"Restoration (Spain)"
+],
+[
+"cs:230",
+1931.3,
+1939.25,
+"Second Spanish Republic"
+],
+[
+"cs:230",
+1939.25,
+1975.9,
+"Francoist Spain"
+],
+[
+"cs:230",
+1975.9,
+2020,
+"Spain"
+],
+[
+"cs:235",
+1886,
+1910.76,
+"Kingdom of Portugal"
+],
+[
+"cs:235",
+1910.76,
+1926.41,
+"First Portuguese Republic"
+],
+[
+"cs:235",
+1933.3,
+1974.32,
+"Estado Novo (Portugal)"
+],
+[
+"cs:235",
+1974.32,
+2020,
+"Portugal"
+],
+[
+"cs:140",
+1886,
+1889.87,
+"Empire of Brazil"
+],
+[
+"cs:140",
+1889.87,
+1930.85,
+"First Brazilian Republic"
+],
+[
+"cs:140",
+1930.85,
+2020,
+"Brazil"
+],
+[
+"cs:345",
+1918.92,
+1945.9,
+"Kingdom of Yugoslavia"
+],
+[
+"cs:345",
+1945.9,
+1992.3,
+"Socialist Federal Republic of Yugoslavia"
+],
+[
+"cs:345",
+1992.3,
+2003.1,
+"Federal Republic of Yugoslavia"
+],
+[
+"cs:345",
+2003.1,
+2006.45,
+"Serbia and Montenegro"
+],
+[
+"cs:750",
+1886,
+1947.62,
+"British Raj"
+],
+[
+"cs:750",
+1947.62,
+2020,
+"India"
+],
+[
+"cs:630",
+1886,
+1925.95,
+"Qajar Iran"
+],
+[
+"cs:630",
+1925.95,
+1979.1,
+"Pahlavi Iran"
+],
+[
+"cs:630",
+1979.1,
+2020,
+"Iran"
+],
+[
+"cs:200",
+1886,
+1922.95,
+"United Kingdom of Great Britain and Ireland"
+],
+[
+"cs:200",
+1922.95,
+2020,
+"United Kingdom"
+],
+[
+"cs:2",
+1886,
+2020,
+"United States"
+],
+[
+"name:France",
+1215,
+1792.72,
+"Kingdom of France"
+],
+[
+"name:France",
+1792.72,
+1804.38,
+"French First Republic"
+],
+[
+"name:France",
+1804.38,
+1815.5,
+"First French Empire"
+],
+[
+"name:France",
+1815.5,
+1830.58,
+"Bourbon Restoration in France"
+],
+[
+"name:France",
+1830.58,
+1848.15,
+"July Monarchy"
+],
+[
+"name:France",
+1848.15,
+1852.92,
+"French Second Republic"
+],
+[
+"name:France",
+1852.92,
+1870.68,
+"Second French Empire"
+],
+[
+"name:France",
+1870.68,
+1940.53,
+"French Third Republic"
+],
+[
+"name:England",
+927,
+1707.34,
+"Kingdom of England"
+],
+[
+"name:Scotland",
+843,
+1707.34,
+"Kingdom of Scotland"
+],
+[
+"name:United Kingdom",
+1801,
+1922.95,
+"United Kingdom of Great Britain and Ireland"
+],
+[
+"name:Roman Empire",
+-27,
+395,
+"Roman Empire"
+],
+[
+"name:Roman Republic",
+-509,
+-27,
+"Roman Republic"
+],
+[
+"name:Byzantine Empire",
+395,
+1453.5,
+"Byzantine Empire"
+],
+[
+"name:Ottoman Empire",
+1299,
+1923.8,
+"Ottoman Empire"
+],
+[
+"name:Holy Roman Empire",
+962,
+1806.6,
+"Holy Roman Empire"
+],
+[
+"name:Mongol Empire",
+1206,
+1368,
+"Mongol Empire"
+],
+[
+"name:Ming Empire",
+1368,
+1644,
+"Ming dynasty"
+],
+[
+"name:Manchu Empire",
+1636,
+1912.12,
+"Qing dynasty"
+],
+[
+"name:Song Empire",
+960,
+1279,
+"Song dynasty"
+],
+[
+"name:Tang Empire",
+618,
+907,
+"Tang dynasty"
+],
+[
+"name:Han Empire",
+-202,
+220,
+"Han dynasty"
+],
+[
+"name:Russia",
+1721,
+1917.2,
+"Russian Empire"
+],
+[
+"name:Russian Empire",
+1721,
+1917.2,
+"Russian Empire"
+],
+[
+"name:Grand Duchy of Moscow",
+1263,
+1547,
+"Grand Duchy of Moscow"
+],
+[
+"name:Austro-Hungarian Empire",
+1867,
+1918.86,
+"Austria-Hungary"
+],
+[
+"name:Prussia",
+1701,
+1918.86,
+"Kingdom of Prussia"
+],
+[
+"name:Kingdom of Italy",
+1861,
+1946.45,
+"Kingdom of Italy"
+],
+[
+"name:Spain",
+1516,
+1808,
+"Spanish Empire"
+],
+[
+"name:Castille",
+1065,
+1516,
+"Crown of Castile"
+],
+[
+"name:Portugal",
+1139,
+1910.76,
+"Kingdom of Portugal"
+],
+[
+"name:Venice",
+697,
+1797.4,
+"Republic of Venice"
+],
+[
+"name:Papal States",
+756,
+1870.72,
+"Papal States"
+],
+[
+"name:Poland-Lithuania",
+1569,
+1795.8,
+"Polish–Lithuanian Commonwealth"
+],
+[
+"name:Sultanate of Delhi",
+1206,
+1526,
+"Delhi Sultanate"
+],
+[
+"name:Mughal Empire",
+1526,
+1857,
+"Mughal Empire"
+],
+[
+"name:Inca Empire",
+1438,
+1533,
+"Inca Empire"
+],
+[
+"name:Aztec Empire",
+1428,
+1521,
+"Aztec Empire"
+],
+[
+"name:Golden Horde",
+1242,
+1502,
+"Golden Horde"
+],
+[
+"name:Mali",
+1226,
+1670,
+"Mali Empire"
+],
+[
+"name:Songhai",
+1464,
+1591,
+"Songhai Empire"
+],
+[
+"name:Ming Chinese Empire",
+1368,
+1644,
+"Ming dynasty"
+],
+[
+"name:Great Khanate",
+1271,
+1368,
+"Yuan dynasty"
+],
+[
+"name:Khanate of the Golden Horde",
+1242,
+1502,
+"Golden Horde"
+],
+[
+"name:Empire of Alexander",
+-336,
+-300,
+"Macedonian Empire"
+],
+[
+"name:Seleucid Kingdom",
+-312,
+-62,
+"Seleucid Empire"
+],
+[
+"name:Sui Empire",
+581,
+618,
+"Sui dynasty"
+],
+[
+"name:Viceroyalty of New Spain",
+1535,
+1821,
+"New Spain"
+],
+[
+"name:Viceroyalty of Peru",
+1542,
+1824,
+"Viceroyalty of Peru"
+],
+[
+"name:Viceroyalty of New Granada",
+1717,
+1819,
+"Viceroyalty of New Granada"
+],
+[
+"name:Viceroyalty of the Río de la Plata",
+1776,
+1814,
+"Viceroyalty of the Río de la Plata"
+],
+[
+"name:Viceroyalty of Brazil",
+1500,
+1815,
+"Colonial Brazil"
+],
+[
+"name:French West Africa",
+1895,
+1958,
+"French West Africa"
+],
+[
+"name:Kara Khitai Khaganate",
+1124,
+1218,
+"Qara Khitai"
+],
+[
+"name:Tufan Empire",
+618,
+842,
+"Tibetan Empire"
+],
+[
+"name:Timurid Emirates",
+1370,
+1507,
+"Timurid Empire"
+],
+[
+"name:Buwayhid Emirates",
+934,
+1062,
+"Buyid dynasty"
+],
+[
+"name:Quazaq Khanate",
+1465,
+1847,
+"Kazakh Khanate"
+],
+[
+"name:Ruanruan",
+330,
+555,
+"Rouran Khaganate"
+],
+[
+"name:Khazars",
+650,
+969,
+"Khazars"
+],
+[
+"name:Scythians",
+-700,
+-200,
+"Scythians"
+],
+[
+"name:Zhou states",
+-770,
+-221,
+"Eastern Zhou"
+],
+[
+"name:Egypt",
+-3150,
+-30,
+"Ancient Egypt"
+],
+[
+"cs:490",
+1886,
+1908.8,
+"Congo Free State"
+],
+[
+"cs:490",
+1908.8,
+1960.5,
+"Belgian Congo"
+],
+[
+"cs:490",
+1960.5,
+1971.8,
+"Democratic Republic of the Congo"
+],
+[
+"cs:490",
+1971.8,
+1997.4,
+"Zaire"
+],
+[
+"cs:490",
+1997.4,
+2020,
+"Democratic Republic of the Congo"
+],
+[
+"name:England and Ireland",
+1530,
+1707.34,
+"Kingdom of England"
+],
+[
+"name:Tokugawa shogunate",
+1603,
+1868,
+"Tokugawa shogunate"
+],
+[
+"name:Japan",
+1783,
+1868,
+"Tokugawa shogunate"
+],
+[
+"name:Imperial Japan",
+1868,
+1947.34,
+"Empire of Japan"
+],
+[
+"name:Empire of Japan",
+1868,
+1947.34,
+"Empire of Japan"
+],
+[
+"name:Qing Empire",
+1644,
+1912.12,
+"Qing dynasty"
+],
+[
+"name:Safavid Empire",
+1501,
+1736,
+"Safavid Iran"
+],
+[
+"name:Achaemenid Empire",
+-550,
+-330,
+"Achaemenid Empire"
+],
+[
+"name:Parthian Empire",
+-247,
+224,
+"Parthian Empire"
+],
+[
+"name:Abbasid Caliphate",
+750,
+1258,
+"Abbasid Caliphate"
+],
+[
+"name:Umayyad Caliphate",
+661,
+750,
+"Umayyad Caliphate"
+],
+[
+"name:Frankish Kingdom",
+481,
+843,
+"Francia"
+],
+[
+"name:Franks",
+481,
+843,
+"Francia"
+]
+]
+}
